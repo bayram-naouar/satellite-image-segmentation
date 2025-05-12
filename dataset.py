@@ -1,10 +1,7 @@
 import numpy as np
-import pandas as pd
-
 import cv2
 from PIL import Image
 from tensorflow.keras.utils import Sequence
-
 import os
 
 class SatelliteDataset(Sequence):
@@ -51,8 +48,14 @@ class SatelliteDataset(Sequence):
         self.use_augmented = use_augment
 
         # Load original image and mask filenames
-        self.image_filenames = sorted(os.listdir(image_dir))
-        self.mask_filenames = sorted(os.listdir(mask_dir))
+        self.image_filenames = sorted([
+            f for f in os.listdir(image_dir)
+            if not f.startswith('.') and not f.endswith('.gitkeep')
+        ])
+        self.mask_filenames = sorted([
+            f for f in os.listdir(mask_dir)
+            if not f.startswith('.') and not f.endswith('.gitkeep')
+        ])
 
         # If use_augmented is enabled, append those filenames as well
         if self.use_augmented and augmented_image_dir and augmented_mask_dir:
