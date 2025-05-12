@@ -71,4 +71,4 @@ I’m a newly arrived permanent resident in Canada, and this project showcases m
 
 ## ✉️ Contact
 
-Feel free to connect with me on [LinkedIn](#) or via email!
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/bayramnaouar95) or via email: bayram.naouar@gmail.com
