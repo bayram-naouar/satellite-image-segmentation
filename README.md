@@ -56,13 +56,13 @@ streamlit run app.py
 
 ## 🔧 Configuration
 
-All important settings for data paths, training behavior, and model architecture are centralized in the config.yaml file.  
-This allows you to easily customize the project without modifying the core scripts.  
-You can change dataset directories (```image_dir```, ```mask_dir```, ```augmented_image_dir```, ```augmented_mask_dir```) or enable/disable data shuffling.  
-Under the training section, you can tune hyperparameters such as ```batch_size```, ```image_size```, ```number of epochs```, ```learning_rate```, and ```dropout_rate```.  
-If you want to include augmented data during training, simply set ```use_augment``` to ```true```.  
-Finally, the model section lets you specify which architecture to use (currently supports "unet").  
-Adjust these values as needed to experiment with performance or scale the pipeline to different datasets.  
+- All important settings for data paths, training behavior, and model architecture are centralized in the config.yaml file.  
+- This allows you to easily customize the project without modifying the core scripts.  
+- You can change dataset directories (```image_dir```, ```mask_dir```, ```augmented_image_dir```, ```augmented_mask_dir```) or enable/disable data shuffling.  
+- Under the training section, you can tune hyperparameters such as ```batch_size```, ```image_size```, ```number of epochs```, ```learning_rate```, and ```dropout_rate```.  
+- If you want to include augmented data during training, simply set ```use_augment``` to ```true```.  
+- Finally, the model section lets you specify which architecture to use (currently supports "unet").  
+- Adjust these values as needed to experiment with performance or scale the pipeline to different datasets.  
 
 ---
 
