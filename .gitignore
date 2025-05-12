@@ -1,0 +1,38 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data files
+*.csv
+*.tsv
+*.xlsx
+*.jpg
+*.png
+
+# Model & output artifacts
+*.joblib
+*.pkl
+*.json
+*.log
+*.h5
+
+# Environment & secrets
+.env
+*.env
+.venv/
+
+# Editor/IDE settings
+.vscode/
+.idea/
+.DS_Store
+
+# OS-specific
+Thumbs.db
+ehthumbs.db
+desktop.ini
