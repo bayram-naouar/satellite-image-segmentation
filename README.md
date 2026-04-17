@@ -75,12 +75,6 @@ pip install -r requirements.txt
 
 ---
 
-## 🌍 About
-
-I’m a newly arrived permanent resident in Canada, and this project showcases my practical knowledge in deep learning and computer vision. I'm a fast learner passionate about solving real-world problems.
-
----
-
 ## ✉️ Contact
 
 Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/bayramnaouar95) or via email: bayram.naouar@gmail.com
